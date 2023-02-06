@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "properties": {
+    "users": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "platform_id": {
+              "type": "integer"
+            },
+            "login": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "firstName",
+            "lastName",
+            "password",
+            "user_id",
+            "platform_id",
+            "login",
+            "country_id",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "platform_id": {
+              "type": "integer"
+            },
+            "login": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "firstName",
+            "lastName",
+            "password",
+            "user_id",
+            "platform_id",
+            "login",
+            "country_id",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "platform_id": {
+              "type": "integer"
+            },
+            "login": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "firstName",
+            "lastName",
+            "password",
+            "user_id",
+            "platform_id",
+            "login",
+            "country_id",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            },
+            "user_id": {
+              "type": "integer"
+            },
+            "platform_id": {
+              "type": "integer"
+            },
+            "login": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "firstName",
+            "lastName",
+            "password",
+            "user_id",
+            "platform_id",
+            "login",
+            "country_id",
+            "id"
+          ]
+        }
+      ]
+    },
+    "platform": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "id"
+          ]
+        }
+      ]
+    },
+    "country": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "country_code": {
+              "type": "string"
+            },
+            "country_name": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "country_code",
+            "country_name",
+            "country_id",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "country_code": {
+              "type": "string"
+            },
+            "country_name": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "country_code",
+            "country_name",
+            "country_id",
+            "id"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "country_code": {
+              "type": "string"
+            },
+            "country_name": {
+              "type": "string"
+            },
+            "country_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "country_code",
+            "country_name",
+            "country_id",
+            "id"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "users",
+    "platform",
+    "country"
+  ]
+}

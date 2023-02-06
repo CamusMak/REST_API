@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Brow",
+      "password": "Jbrown",
+      "user_id": 9089,
+      "platform_id": 1112,
+      "login": "jbrown1999",
+      "country_id": 0,
+      "id": 1
+    },
+    {
+      "firstName": "Lucka",
+      "lastName": "Bond",
+      "password": "Lbond",
+      "user_id": 9090,
+      "platform_id": 1111,
+      "login": "lbond",
+      "country_id": 0,
+      "id": 2
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Marley",
+      "password": "Bmarley",
+      "user_id": 9091,
+      "platform_id": 1112,
+      "login": "bmarley##",
+      "country_id": 0,
+      "id": 3
+    },
+    {
+      "firstName": "David",
+      "lastName": "Bin",
+      "password": "Dbind",
+      "user_id": 9092,
+      "platform_id": 1111,
+      "login": "dbind#$$",
+      "country_id": 0,
+      "id": 4
+    },
+    {
+      "firstName": "Tom",
+      "lastName": "Pit",
+      "password": "Tpit$$$",
+      "user_id": 9093,
+      "platform_id": 1112,
+      "login": "Tpit232",
+      "country_id": 375,
+      "id": 5
+    }
+  ],
+  "platform": [
+    {
+      "name": "ios",
+      "id": 1112
+    },
+    {
+      "name": "android",
+      "id": 1111
+    }
+  ],
+  "country": [
+    {
+      "country_code": "ARM",
+      "country_name": "Armenia",
+      "country_id": 374,
+      "id": 1
+    },
+    {
+      "country_code": "US",
+      "country_name": "United States",
+      "country_id": 375,
+      "id": 2
+    },
+    {
+      "country_code": "RUS",
+      "country_name": "Russia",
+      "country_id": 376,
+      "id": 3
+    }
+  ]
+}
